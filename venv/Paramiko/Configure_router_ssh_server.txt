@@ -1,0 +1,15 @@
+conf t
+enable secret cisco
+username rugsi secret cisco
+int gig0/0
+ip address 10.1.1.10 255.255.255.0
+no shut
+exit
+hostname R1
+ip domain-name cisco-lab.com
+crypto key generate rsa
+Number of bits(ssh key): 1024
+line vty 0 4
+transport input ssh telnet
+login local
+exit

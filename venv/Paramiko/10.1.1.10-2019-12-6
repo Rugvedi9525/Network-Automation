@@ -1,0 +1,9 @@
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+R1>show run
+         ^
+% Invalid input detected at '^' marker.
+

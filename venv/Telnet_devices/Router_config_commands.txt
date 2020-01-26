@@ -1,0 +1,5 @@
+enable
+cisco
+terminal length 0
+show run
+exit
